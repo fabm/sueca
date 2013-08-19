@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://localhost:8080/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>ClienteSueca</title>
+        <vendor>francisco</vendor>
+        <homepage href=""/>
+        <description>ClienteSueca</description>
+        <description kind="short">ClienteSueca</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="ClienteSueca.jar" main="true"/>
+    <jar href="lib/swing-layout-1.0.4.jar"/>
+</resources>
+    <application-desc main-class="jogosueca.cliente.JFrameSueca">
+    </application-desc>
+</jnlp>

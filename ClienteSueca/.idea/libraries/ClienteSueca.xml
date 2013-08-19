@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ClienteSueca">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/ClienteSueca.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
